@@ -21,9 +21,8 @@
         app:srcCompat="@drawable/login" />
 
 
-    <TextView
-        android:id="@+id/textView"
-        andriod:importantForAutofill="no"
+    <EditText
+        android:id="@+id/editText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="16dp"
@@ -31,6 +30,7 @@
         android:background="#ffffff"
         android:ems="10"
         android:hint="@string/tEmail"
+        android:importantForAutofill="no"
         android:inputType="textPersonName"
         android:padding="12dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -41,9 +41,8 @@
         app:layout_constraintVertical_bias="0.392" />
 
 
-    <TextView
-        android:id="@+id/textView2"
-        andriod:importantForAutofill="no"
+    <EditText
+        android:id="@+id/editText2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="16dp"
@@ -51,6 +50,7 @@
         android:background="#ffffff"
         android:ems="10"
         android:hint="@string/tPassword"
+        android:importantForAutofill="no"
         android:inputType="textPassword"
         android:padding="12dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -58,13 +58,14 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.446" />
+        app:layout_constraintVertical_bias="0.446"
+        tools:ignore="TextContrastCheck" />
 
 
     <Button
         android:id="@+id/button1"
-        andriod:layout_marginLeft="16dp"
-        andriod:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="#00773F"
